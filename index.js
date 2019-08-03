@@ -9,6 +9,6 @@ class Formatter {
   }
 
   static titleize(str) {
-    
+
   }
 }
