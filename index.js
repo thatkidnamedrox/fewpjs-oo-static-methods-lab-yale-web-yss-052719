@@ -5,7 +5,7 @@ class Formatter {
   }
 
   static sanitize(str) {
-    return str.replace(/\W/, '')
+    return str.replace(//, '')
   }
 
   static titleize(str) {
