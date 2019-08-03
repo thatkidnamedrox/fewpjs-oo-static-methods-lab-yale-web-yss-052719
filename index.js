@@ -7,4 +7,8 @@ class Formatter {
   static sanitize(str) {
     return str;
   }
+
+  static titleize(str) {
+    
+  }
 }
