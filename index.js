@@ -14,6 +14,8 @@ class Formatter {
     return words.map(word => {
       if (!exceptions.find(w => { return w === word })) {
         return word[0].toUpperCase() + word.slice(1);
+      } else {
+        
       }
     }).join(" ")
   }
