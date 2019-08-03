@@ -9,7 +9,7 @@ class Formatter {
       let a = w.replace(/[\W][^]/, '');
       let b = a//.replace(/'/, '');
 
-      return b.replace(/@#/, '');
+      return a.replace(/@#/, '');
       // return w.replace(/\W/, '')
     }).join(" ")
     // let result = str.replace(/\W/, '')
