@@ -10,6 +10,6 @@ class Formatter {
 
   static titleize(str) {
     let exceptions = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
-    
+
   }
 }
