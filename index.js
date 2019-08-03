@@ -5,7 +5,7 @@ class Formatter {
   }
 
   static sanitize(str) {
-    let result = str.replace(, '')
+    let result = str.replace(/[\W]/, '')
     return result
   }
 
