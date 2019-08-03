@@ -6,8 +6,8 @@ class Formatter {
 
   static sanitize(str) {
     let result = str.split(" ").map(w => {
-      let a = w.replace(/[!$@#{]/, '');
-      let b = a.replace(/[@#]/, '')//.replace(/'/, '');
+      let a = w.replace(/!$@#{/, '');
+      let b = a.replace(/@#]/, '')//.replace(/'/, '');
 
       return b
       // return w.replace(/\W/, '')
