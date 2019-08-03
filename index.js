@@ -6,7 +6,7 @@ class Formatter {
 
   static sanitize(str) {
     let result = str.split(" ").map(w => {
-      let a = w.replace(/[^0-9a-zA-Z!]/, '');
+      let a = w.replace(/[^0-9a-zA-Z']/, '');
       let b = a.replace(/!/, '')//.replace(/@#]/, '')//.replace(/'/, '');
 
       return b
