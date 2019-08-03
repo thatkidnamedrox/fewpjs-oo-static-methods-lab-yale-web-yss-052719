@@ -6,7 +6,7 @@ class Formatter {
 
   static sanitize(str) {
     let result = str.replace(, '')
-    return 
+    return
   }
 
   static titleize(str) {
