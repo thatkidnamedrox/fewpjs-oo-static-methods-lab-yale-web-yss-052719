@@ -5,7 +5,7 @@ class Formatter {
   }
 
   static sanitize(str) {
-    str.replace(/[]/, "");
+    str.replace(/[-' ]/, "");
     return str;
   }
 
