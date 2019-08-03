@@ -5,6 +5,6 @@ class Formatter {
   }
 
   static sanitize(str) {
-
+    return str;
   }
 }
