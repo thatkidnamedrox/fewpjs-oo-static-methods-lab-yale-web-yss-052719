@@ -8,7 +8,7 @@ class Formatter {
     let result = str.split(" ").map(w => {
       let a = w.replace(/\W/, '');
 
-      return a.replace(/@/, '');
+      return a.replace(/@#/, '');
       // return w.replace(/\W/, '')
     }).join(" ")
     // let result = str.replace(/\W/, '')
