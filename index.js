@@ -7,9 +7,8 @@ class Formatter {
   static sanitize(str) {
     let result = str.split(" ").map(w => {
       return  w.replace(/[^0-9a-zA-Z'-]/g, '');
-    
     }).join(" ")
-  
+
     return result
   }
 
