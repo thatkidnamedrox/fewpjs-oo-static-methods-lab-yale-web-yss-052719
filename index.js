@@ -5,7 +5,8 @@ class Formatter {
   }
 
   static sanitize(str) {
-    return str.replace(/|&;$%@"<>()+,/g, '')
+    let result = str.replace(, '')
+    return 
   }
 
   static titleize(str) {
