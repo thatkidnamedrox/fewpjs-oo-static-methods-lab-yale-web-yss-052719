@@ -3,4 +3,8 @@ class Formatter {
   static capitalize(str) {
     return str[0].toUpperCase() + str.slice(1);
   }
+
+  static sanitize(str) {
+    
+  }
 }
