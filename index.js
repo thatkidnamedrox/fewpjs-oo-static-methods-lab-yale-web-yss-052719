@@ -12,8 +12,7 @@ class Formatter {
     let exceptions = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
     let words = str.split(" ");
     return words.map(word => {
-      if (!expections.find(w => { return w === word}))
+      if (!expections.find(w => { return w === word }))
     })
   }
 }
-
